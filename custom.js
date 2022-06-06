@@ -64,11 +64,11 @@ function sidenavopener()
 
     }
 
-    window.addEventListener('mouseup',function(event){
-        var b = document.getElementById('col-sidenav');
-        if(event.target != b && event.target.parentNode != b){
-            b.style.display = 'none';
-        }
-  });
+//     // window.addEventListener('mouseup',function(event){
+//     //     var b = document.getElementById('col-sidenav');
+//     //     if(event.target != b && event.target.parentNode != b){
+//     //         b.style.display = 'none';
+//     //     }
+//   });
 
     
